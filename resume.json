@@ -1,0 +1,188 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Teguh Prabowo Wijangkoro",
+    "label": "Programmer",
+    "image": "",
+    "email": "teguh.pw20@gmail.com",
+    "phone": "0812-1554-1064",
+    "url": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Semarang",
+      "countryCode": "ID",
+      "region": "Jawa Tengah"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "negadive",
+        "url": "https://github.com/negadive"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/teguh-x/",
+        "username": "teguh-x"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "PT Talenta Informasi Teknologi",
+      "location": "Semarang, Jawa Tengah, Indonesia",
+      "description": "",
+      "position": "Backend Developer",
+      "url": "http://talentkita.com/",
+      "startDate": "2020-03-01",
+      "endDate": "1000-00-00",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitas Dian Nuswantoro",
+      "url": "https://dinus.ac.id/",
+      "area": "Information System",
+      "studyType": "Bachelor",
+      "startDate": "2016-09-01",
+      "endDate": "2021-01-01",
+      "score": "",
+      "courses": [],
+      "website": "https://dinus.ac.id/",
+      "gpa": null
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": [
+        "FastAPI",
+        "Pandas"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "",
+      "keywords": [
+        "MySql",
+        "sqlite"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Indonesia",
+      "fluency": "Native"
+    }
+  ],
+  "projects": [
+    {
+      "name": "pemesanan-wisata",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "PHP",
+        "TSQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Hack"
+      ],
+      "startDate": "1000-00-00",
+      "endDate": "1000-00-00",
+      "url": "",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "bank_check",
+      "description": "",
+      "highlights": [],
+      "keywords": [
+        "PHP"
+      ],
+      "url": "",
+      "roles": [],
+      "startDate": "1000-00-00",
+      "endDate": "1000-00-00",
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "rfm",
+      "description": "",
+      "url": "",
+      "highlights": [],
+      "keywords": [
+        "TSQL",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "roles": [],
+      "startDate": "1000-00-00",
+      "endDate": "1000-00-00",
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "integrasi-sederhana-telegram-bot-dan-google-spreadsheet",
+      "description": "",
+      "url": "",
+      "highlights": [],
+      "keywords": [
+        "JavaScript"
+      ],
+      "roles": [],
+      "startDate": "1000-00-00",
+      "endDate": "1000-00-00",
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "exchange_pick",
+      "description": "",
+      "url": "",
+      "highlights": [
+        "PHP"
+      ],
+      "keywords": [],
+      "roles": [],
+      "startDate": "1000-00-00",
+      "endDate": "1000-00-00",
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "asuransi",
+      "description": "",
+      "url": "",
+      "highlights": [],
+      "keywords": [
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Hack"
+      ],
+      "roles": [],
+      "startDate": "1000-00-00",
+      "endDate": "1000-00-00",
+      "entity": "",
+      "type": ""
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

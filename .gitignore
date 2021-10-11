@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+# Themes
+jsonresume-theme*
+
+package-lock.json
+
+# Exported html resume
+*resume*.html
