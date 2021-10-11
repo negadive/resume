@@ -3,11 +3,11 @@
   "basics": {
     "name": "Teguh Prabowo Wijangkoro",
     "label": "Programmer",
-    "image": "",
+    "image": "https://media-exp1.licdn.com/dms/image/C5603AQEEzBj2xIKHjQ/profile-displayphoto-shrink_200_200/0/1601565131763?e=1639612800&v=beta&t=OYKbsAKnJ-g_2ZRb9fLRJlW7tjYZQqyn9CLJPt2oEao",
     "email": "teguh.pw20@gmail.com",
-    "phone": "0812-1554-1064",
+    "phone": "+6281215541064",
     "url": "",
-    "summary": "",
+    "summary": "Experienced Back End Developer with a demonstrated history of working in the information technology and services industry. Skilled in SQL, PHP, C++, Object-Oriented Programming (OOP), and English. Strong engineering professional with a Bachelor's degree focused in Information System from Universitas Dian Nuswantoro.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -23,8 +23,8 @@
       },
       {
         "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/teguh-x/",
-        "username": "teguh-x"
+        "url": "https://www.linkedin.com/in/tegeha",
+        "username": "Teguh Prabowo Wijangkoro"
       }
     ]
   },
@@ -32,26 +32,58 @@
     {
       "name": "PT Talenta Informasi Teknologi",
       "location": "Semarang, Jawa Tengah, Indonesia",
-      "description": "",
       "position": "Backend Developer",
-      "url": "http://talentkita.com/",
+      "url": "http://talentkita.com",
       "startDate": "2020-03-01",
-      "endDate": "1000-00-00",
-      "summary": "",
+      "summary": "Design and implement server-side features and API using FastAPI framework",
+      "highlights": [
+        "Involve in database structure decision making",
+        "Integrate third party service like Firebase, Midtrans"
+      ]
+    },
+    {
+      "name": "Dian Nuswantoro University",
+      "location": "Semarang, Jawa Tengah, Indonesia",
+      "position": "Assistant Lecturer",
+      "url": "https://dinus.ac.id",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Assisting lecturer in Database course",
+      "highlights": []
+    },
+    {
+      "name": "Dian Nuswantoro University",
+      "location": "Semarang, Jawa Tengah, Indonesia",
+      "position": "Assistant Lecturer",
+      "url": "https://dinus.ac.id",
+      "startDate": "2017-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Assisting lecturer in Programming and Algorithm course",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "Universitas Dian Nuswantoro",
-      "url": "https://dinus.ac.id/",
+      "institution": "Dian Nuswantoro University",
+      "url": "https://dinus.ac.id",
       "area": "Information System",
       "studyType": "Bachelor",
       "startDate": "2016-09-01",
-      "endDate": "2021-01-01",
       "score": "",
       "courses": [],
-      "website": "https://dinus.ac.id/",
+      "website": "https://dinus.ac.id",
+      "gpa": null
+    },
+    {
+      "institution": "SMK Negeri 1 Batam",
+      "url": "",
+      "area": "Mekatronika",
+      "studyType": "Highschool",
+      "startDate": "2012-06-01",
+      "endDate": "2015-06-01",
+      "score": "",
+      "courses": [],
+      "website": "https://www.smkn1batam.sch.id",
       "gpa": null
     }
   ],
@@ -71,6 +103,11 @@
         "MySql",
         "sqlite"
       ]
+    },
+    {
+      "name": "Javascript",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
@@ -80,109 +117,58 @@
     },
     {
       "language": "Indonesia",
-      "fluency": "Native"
+      "fluency": "Native speaker"
     }
   ],
   "projects": [
     {
-      "name": "pemesanan-wisata",
-      "description": "",
+      "name": "Pemesanan Online Tiket Wisata",
+      "description": "Prototype aplikasi pemesanan tiket wisata secara online",
       "highlights": [],
       "keywords": [
         "PHP",
-        "TSQL",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Hack"
-      ],
-      "startDate": "1000-00-00",
-      "endDate": "1000-00-00",
-      "url": "",
-      "roles": [],
-      "entity": "",
-      "type": ""
-    },
-    {
-      "name": "bank_check",
-      "description": "",
-      "highlights": [],
-      "keywords": [
-        "PHP"
-      ],
-      "url": "",
-      "roles": [],
-      "startDate": "1000-00-00",
-      "endDate": "1000-00-00",
-      "entity": "",
-      "type": ""
-    },
-    {
-      "name": "rfm",
-      "description": "",
-      "url": "",
-      "highlights": [],
-      "keywords": [
-        "TSQL",
-        "PHP",
+        "MySQL",
         "HTML",
         "CSS",
         "JavaScript"
       ],
+      "startDate": "2020-06-14",
+      "endDate": "2020-08-01",
+      "url": "",
       "roles": [],
-      "startDate": "1000-00-00",
-      "endDate": "1000-00-00",
       "entity": "",
       "type": ""
     },
     {
-      "name": "integrasi-sederhana-telegram-bot-dan-google-spreadsheet",
-      "description": "",
+      "name": "Integrasi Sederhana Telegram-bot dan Google Spreadsheet",
+      "description": "Integrasi sederhana mengirim pesan setiap pembuatan row baru pada Google Spreadsheet",
       "url": "",
       "highlights": [],
       "keywords": [
         "JavaScript"
       ],
       "roles": [],
-      "startDate": "1000-00-00",
-      "endDate": "1000-00-00",
+      "startDate": "2020-02-25",
+      "endDate": "2020-02-25",
       "entity": "",
       "type": ""
     },
     {
-      "name": "exchange_pick",
-      "description": "",
-      "url": "",
-      "highlights": [
-        "PHP"
-      ],
-      "keywords": [],
-      "roles": [],
-      "startDate": "1000-00-00",
-      "endDate": "1000-00-00",
-      "entity": "",
-      "type": ""
-    },
-    {
-      "name": "asuransi",
-      "description": "",
+      "name": "Aplikasi Recency, Frequency, Monetary (RFM)",
+      "description": "Prototype aplikasi analisa RFM otomatis",
       "url": "",
       "highlights": [],
       "keywords": [
-        "CSS",
-        "JavaScript",
         "PHP",
-        "Hack"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
       "roles": [],
-      "startDate": "1000-00-00",
-      "endDate": "1000-00-00",
+      "startDate": "2019-03-01",
+      "endDate": "2019-03-08",
       "entity": "",
       "type": ""
     }
-  ],
-  "meta": {
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
+  ]
 }
