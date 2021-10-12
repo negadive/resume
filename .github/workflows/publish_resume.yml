@@ -1,7 +1,8 @@
 name: "Publish Resume"
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
 
 jobs:
   publish_resume:
@@ -20,8 +21,7 @@ jobs:
           mkdir public
       - name: Build the resume - html
         run: |
-          echo "$(tty)"
-          npx resume export --theme stackoverflow --format html public/index.html"
+          npx resume export --theme stackoverflow --format html public/index.html
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -30,7 +30,7 @@ jobs:
 
       - name: Build the resume - pdf
         run: |
-          npx resume export --theme stackoverflow --format pdf Teguh_Prabowo_Wijangkoro.pdf"
+          npx resume export --theme stackoverflow --format pdf Teguh_Prabowo_Wijangkoro.pdf
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Teguh_Prabowo_Wijangkoro.pdf
