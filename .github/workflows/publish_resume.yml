@@ -20,7 +20,6 @@ jobs:
           mkdir public
       - name: Build the resume - html
         run: |
-          echo "$(tty)"
           npx resume export --theme stackoverflow --format html public/index.html"
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
