@@ -17,11 +17,11 @@ jobs:
         run: |
           apt-get update && apt-get install -y git
           npm install resume-cli
-          npm install https://github.com/francescoes/jsonresume-theme-stackoverflow.git
+          npm install https://github.com/negadive/jsonresume-theme-stackoverflow-ibic.git
           mkdir public
       - name: Build the resume - html
         run: |
-          npx resume export --theme stackoverflow --format html public/index.html
+          npx resume export --theme stackoverflow-ibic --format html public/index.html
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -30,7 +30,7 @@ jobs:
 
       - name: Build the resume - pdf
         run: |
-          npx resume export --theme stackoverflow --format pdf Teguh_Prabowo_Wijangkoro.pdf
+          npx resume export --theme stackoverflow-ibic --format pdf exports/Teguh_Prabowo_Wijangkoro.pdf
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Teguh_Prabowo_Wijangkoro.pdf
