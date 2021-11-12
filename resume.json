@@ -6,7 +6,7 @@
     "image": "https://raw.githubusercontent.com/negadive/resume/main/resources/image.png",
     "email": "teguh.pw20@gmail.com",
     "phone": "+6281215541064",
-    "summary": "Experienced Back End Developer with a demonstrated history of working in the information technology and services industry. Skilled in SQL, PHP, C++, Object-Oriented Programming (OOP), and English. Strong engineering professional with a Bachelor's degree focused in Information System from Universitas Dian Nuswantoro.",
+    "summary": "Experienced Back End Developer with a demonstrated history of working in the information technology and services industry. Skilled in SQL, PHP, Python, Object-Oriented Programming (OOP), and English. Strong engineering professional with a Bachelor's degree focused in Information System from Universitas Dian Nuswantoro.",
     "location": {
       "city": "Semarang",
       "countryCode": "ID",
@@ -86,7 +86,7 @@
     {
       "name": "Database",
       "keywords": [
-        "MySql",
+        "MySQL",
         "sqlite"
       ]
     },
@@ -130,16 +130,16 @@
         "Git",
         "MongoDB"
       ],
-      "startDate": "2020-01-01",
+      "startDate": "2021-01-01",
       "roles": [
         "Backend Developer"
       ],
-      "entity": "Siba group",
+      "entity": "Siba Group",
       "type": "application"
     },
     {
       "name": "Siba Promoter",
-      "description": "Built two backend services; <b>(1)Interactive Web Trucker</b>, an application for promoting Siba's orders to the partners via Web Application or Telegram Chat Application. <b>(2)Backoffice</b>, a financial application that records the transaction <b>Interactive Web Trucker</b> invoices and bills and generate journals and reports",
+      "description": "Built two backend services; <b>(1)Interactive Web Trucker</b>, an application for promoting Siba Group's orders to the partners via Web Application or Telegram Chat Application. <b>(2)Backoffice</b>, a financial application that records the transaction <b>Interactive Web Trucker</b> invoices and bills and generate journals and reports",
       "highlights": [
         "Collaborate with 1 other Backend Developer, 1 Frontend Developer, 2 Business Analysts",
         "Integrate with <a href=https://www.soloplan.com/products/carlo/>CarLo</a> via database level",
@@ -167,7 +167,7 @@
       "roles": [
         "Backend Developer"
       ],
-      "entity": "Siba group",
+      "entity": "Siba Group",
       "type": "application"
     },
     {
