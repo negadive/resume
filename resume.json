@@ -122,6 +122,71 @@
   ],
   "projects": [
     {
+      "name": "Golek Truk",
+      "description": "Build backend service. An advertisement service for Shippers and Truckers related without in-application transaction between seller and buyer.",
+      "highlights": [
+        "Collaborate with 1 other Backend Developer, 2 Frontend Developers, 2 Business Analysts",
+        "Design and build REST API using FastAPI framework",
+        "Design database, using MySQL",
+        "Research and integrate Firebase Authentication for authentication service",
+        "Research and integrate Midtrans for payment gateway",
+        "MongoDB for logging service",
+        "AWS S3 for uploaded file storage service",
+        "Docker for deployment",
+        "Git as Continous Integration"
+      ],
+      "keywords": [
+        "RESTful API",
+        "MySQL",
+        "Python",
+        "FastAPI",
+        "AWS",
+        "S3",
+        "Docker",
+        "Git",
+        "MongoDB"
+      ],
+      "startDate": "2020-01-01",
+      "roles": [
+        "Backend Developer"
+      ],
+      "entity": "Siba group",
+      "type": "application"
+    },
+    {
+      "name": "Siba Promoter",
+      "description": "Built two backend services; <b>(1)Interactive Web Trucker</b>, an application for promoting Siba's orders to the partners via Web Application or Telegram Chat Application. <b>(2)Backoffice</b>, a financial application that records the transaction <b>Interactive Web Trucker</b> invoices and bills and generate journals and reports",
+      "highlights": [
+        "Collaborate with 1 other Backend Developer, 1 Frontend Developer, 2 Business Analysts",
+        "Integrate with <a href=https://www.soloplan.com/products/carlo/>CarLo</a> via database level",
+        "Design and build REST API using FastAPI framework",
+        "Design database, using MySQL",
+        "AWS S3 for uploaded file storage",
+        "Docker for deployment",
+        "Research and integrate with Telegram Bot API using python",
+        "Git as Continous Integration"
+      ],
+      "keywords": [
+        "RESTful API",
+        "MySQL",
+        "SQL",
+        "Python",
+        "FastAPI",
+        "AWS",
+        "S3",
+        "Docker",
+        "Telegram",
+        "Git"
+      ],
+      "startDate": "2020-04-01",
+      "endDate": "2020-11-01",
+      "roles": [
+        "Backend Developer"
+      ],
+      "entity": "Siba group",
+      "type": "application"
+    },
+    {
       "name": "Pemesanan Online Tiket Wisata",
       "description": "Prototype aplikasi pemesanan tiket wisata secara online",
       "highlights": [],
@@ -135,9 +200,9 @@
       "startDate": "2020-06-14",
       "endDate": "2020-08-01",
       "url": "",
-      "roles": [],
+      "roles": ["Fullstack Developer"],
       "entity": "",
-      "type": ""
+      "type": "application"
     },
     {
       "name": "Integrasi Sederhana Telegram-bot dan Google Spreadsheet",
@@ -151,7 +216,7 @@
       "startDate": "2020-02-25",
       "endDate": "2020-02-25",
       "entity": "",
-      "type": ""
+      "type": "application"
     },
     {
       "name": "Aplikasi Recency, Frequency, Monetary (RFM)",
@@ -168,7 +233,7 @@
       "startDate": "2019-03-01",
       "endDate": "2019-03-08",
       "entity": "",
-      "type": ""
+      "type": "application"
     }
   ]
 }
