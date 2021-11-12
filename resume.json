@@ -6,11 +6,8 @@
     "image": "https://raw.githubusercontent.com/negadive/resume/main/resources/image.png",
     "email": "teguh.pw20@gmail.com",
     "phone": "+6281215541064",
-    "url": "",
     "summary": "Experienced Back End Developer with a demonstrated history of working in the information technology and services industry. Skilled in SQL, PHP, C++, Object-Oriented Programming (OOP), and English. Strong engineering professional with a Bachelor's degree focused in Information System from Universitas Dian Nuswantoro.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Semarang",
       "countryCode": "ID",
       "region": "Jawa Tengah"
@@ -48,8 +45,7 @@
       "url": "https://dinus.ac.id",
       "startDate": "2018-01-01",
       "endDate": "2019-01-01",
-      "summary": "Assisting lecturer in Database course",
-      "highlights": []
+      "summary": "Assisting lecturer in Database course"
     },
     {
       "name": "Dian Nuswantoro University",
@@ -58,8 +54,7 @@
       "url": "https://dinus.ac.id",
       "startDate": "2017-01-01",
       "endDate": "2018-01-01",
-      "summary": "Assisting lecturer in Programming and Algorithm course",
-      "highlights": []
+      "summary": "Assisting lecturer in Programming and Algorithm course"
     }
   ],
   "education": [
@@ -69,28 +64,20 @@
       "area": "Information System",
       "studyType": "Bachelor",
       "startDate": "2016-09-01",
-      "score": "",
-      "courses": [],
-      "website": "https://dinus.ac.id",
-      "gpa": null
+      "website": "https://dinus.ac.id"
     },
     {
       "institution": "SMK Negeri 1 Batam",
-      "url": "",
       "area": "Mekatronika",
       "studyType": "Highschool",
       "startDate": "2012-06-01",
       "endDate": "2015-06-01",
-      "score": "",
-      "courses": [],
-      "website": "https://www.smkn1batam.sch.id",
-      "gpa": null
+      "website": "https://www.smkn1batam.sch.id"
     }
   ],
   "skills": [
     {
       "name": "Python",
-      "level": "",
       "keywords": [
         "FastAPI",
         "Pandas"
@@ -98,16 +85,13 @@
     },
     {
       "name": "Database",
-      "level": "",
       "keywords": [
         "MySql",
         "sqlite"
       ]
     },
     {
-      "name": "Javascript",
-      "level": "",
-      "keywords": []
+      "name": "Javascript"
     }
   ],
   "languages": [
@@ -189,7 +173,6 @@
     {
       "name": "Pemesanan Online Tiket Wisata",
       "description": "Prototype aplikasi pemesanan tiket wisata secara online",
-      "highlights": [],
       "keywords": [
         "PHP",
         "MySQL",
@@ -199,40 +182,30 @@
       ],
       "startDate": "2020-06-14",
       "endDate": "2020-08-01",
-      "url": "",
       "roles": ["Fullstack Developer"],
-      "entity": "",
       "type": "application"
     },
     {
       "name": "Integrasi Sederhana Telegram-bot dan Google Spreadsheet",
       "description": "Integrasi sederhana mengirim pesan setiap pembuatan row baru pada Google Spreadsheet",
-      "url": "",
-      "highlights": [],
       "keywords": [
         "JavaScript"
       ],
-      "roles": [],
       "startDate": "2020-02-25",
       "endDate": "2020-02-25",
-      "entity": "",
       "type": "application"
     },
     {
       "name": "Aplikasi Recency, Frequency, Monetary (RFM)",
       "description": "Prototype aplikasi analisa RFM otomatis",
-      "url": "",
-      "highlights": [],
       "keywords": [
         "PHP",
         "HTML",
         "CSS",
         "JavaScript"
       ],
-      "roles": [],
       "startDate": "2019-03-01",
       "endDate": "2019-03-08",
-      "entity": "",
       "type": "application"
     }
   ]
