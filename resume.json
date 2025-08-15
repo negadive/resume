@@ -8,9 +8,9 @@
     "phone": "+6281215541064",
     "summary": "Experienced Back End Developer with a demonstrated history of working in the information technology and services industry. Skilled in SQL, PHP, Python, Object-Oriented Programming (OOP), and English. Strong engineering professional with a Bachelor's degree focused in Information System from Universitas Dian Nuswantoro.",
     "location": {
-      "city": "Semarang",
+      "city": "Batam",
       "countryCode": "ID",
-      "region": "Jawa Tengah"
+      "region": "Kepulauan Riau"
     },
     "profiles": [
       {
@@ -27,11 +27,28 @@
   },
   "work": [
     {
+      "name": "PT Vidio Dot Com",
+      "location": "Jakarta, Indonesia",
+      "position": "Backend Engineer",
+      "url": "https://www.vidio.com",
+      "startDate": "2022-01-17",
+      "summary": "Design and implement server-side features and API using FastAPI framework",
+      "highlights": [
+        "Developing features using Ruby On Rails, React",
+        "Monitoring using Datadog and optimizing",
+        "Working asynchronous features using Sidekiq",
+        "Working with TDD and pair programming",
+        "Working with postgresql, redis, elasticsearch",
+        "Log exploring using kibana and grafana"
+      ]
+    },
+    {
       "name": "PT Talenta Informasi Teknologi",
       "location": "Semarang, Jawa Tengah, Indonesia",
       "position": "Backend Developer",
-      "url": "http://talentkita.com",
+      "url": "https://talentkita.com",
       "startDate": "2020-03-01",
+      "endDate": "2021-12-25",
       "summary": "Design and implement server-side features and API using FastAPI framework",
       "highlights": [
         "Involve in database structure decision making",
