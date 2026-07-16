@@ -31,7 +31,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
+      - name: Allow unprivileged user namespaces (Chromium sandbox)
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
       - name: Build the resume - pdf
         run: |
           npx resume export --theme stackoverflow-ibic --format pdf exports/Teguh_Prabowo_Wijangkoro.pdf
@@ -39,7 +40,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add exports/Teguh_Prabowo_Wijangkoro.pdf
           git commit -m "Publishing latest PDF"
-      - name: Deploy the resume - pdf
+      - name: Deploy the resume - pdf  
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
