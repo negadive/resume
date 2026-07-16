@@ -1,15 +1,15 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Teguh Prabowo Wijangkoro",
     "label": "Programmer",
     "image": "https://raw.githubusercontent.com/negadive/resume/main/resources/image.png",
     "email": "teguh.pw20@gmail.com",
-    "summary": "Experienced Back End Developer with a demonstrated history of working in the information technology and services industry. Skilled in SQL, PHP, Python, Object-Oriented Programming (OOP), and English. Strong engineering professional with a Bachelor's degree focused in Information System from Universitas Dian Nuswantoro.",
+    "summary": "Backend Developer with 5+ years of experience building and scaling RESTful APIs and microservices. Currently working with Ruby on Rails, React, TypeScript, Docker, and Datadog at Vidio. Skilled in SQL, Python, and Object-Oriented Programming.",
     "location": {
-      "city": "Semarang",
+      "city": "Batam",
       "countryCode": "ID",
-      "region": "Jawa Tengah"
+      "region": "Kepulauan Riau"
     },
     "profiles": [
       {
@@ -40,7 +40,8 @@
         "Improved test reliability and engineering efficiency by identifying and refactoring the root cause of flaky tests",
         "Implemented frontend components for web platform using React and TypeScript",
         "Pair Programming and TDD as day to day practice",
-        "Authored and maintained technical documentation for features and API endpoints"
+        "Authored and maintained technical documentation for features and API endpoints",
+        "Use AI coding agents like Claude Code and Codex daily as core part of workflow, accelerating implementation, debugging, and code review"
       ]
     },
     {
@@ -102,10 +103,11 @@
       ]
     },
     {
-      "name": "React"
-    },
-    {
-      "name": "Docker"
+      "name": "Javascript",
+      "keywords": [
+        "TypeScript",
+        "React"
+      ]
     },
     {
       "name": "Python",
@@ -118,11 +120,36 @@
       "name": "Database",
       "keywords": [
         "MySQL",
-        "sqlite"
+        "sqlite",
+        "MongoDB",
+        "SQL"
       ]
     },
     {
-      "name": "Javascript"
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "CI/CD",
+        "Datadog",
+        "Redis"
+      ]
+    },
+    {
+      "name": "AI-Assisted Development",
+      "keywords": [
+        "Claude Code",
+        "Codex",
+        "AI Pair Programming"
+      ]
+    },
+    {
+      "name": "Cloud & Integrations",
+      "keywords": [
+        "AWS S3",
+        "Firebase",
+        "Midtrans",
+        "Telegram Bot API"
+      ]
     }
   ],
   "languages": [
@@ -136,6 +163,34 @@
     }
   ],
   "projects": [
+    {
+      "name": "SJP Backoffice",
+      "description": "Built with Claude Code, a back-office admin system for Sinar Jaya Pratama covering the full quotation-to-invoice-to-cash flow, expense/bill tracking, equipment and project management, and employee timesheets. Exposes an MCP server so invoicing and quotation operations can be driven directly by AI agents.",
+      "highlights": [
+        "Built end-to-end with Claude Code as an AI pair-programming workflow",
+        "Exposed core invoicing/quotation operations to AI agents via an MCP server",
+        "Built Filament-based admin panel on Laravel 13 / PHP 8.3",
+        "Designed quotation, invoice, and bill workflows with payment term and clause templates, tax/discount-aware allocations, and PDF/print views",
+        "Implemented equipment-linked project tracking and employee timesheets with break-duration tracking",
+        "Added audit trail via activity logging and role-based access control"
+      ],
+      "keywords": [
+        "Laravel",
+        "PHP",
+        "Filament",
+        "MCP",
+        "Claude Code",
+        "SQLite",
+        "Redis",
+        "Tailwind CSS"
+      ],
+      "startDate": "2026-06-13",
+      "roles": [
+        "Fullstack Developer"
+      ],
+      "entity": "Sinar Jaya Pratama",
+      "type": "application"
+    },
     {
       "name": "Golek Truk",
       "description": "Build backend service. An advertisement service for Shippers and Truckers related without in-application transaction between seller and buyer.",

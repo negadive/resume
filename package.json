@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonresume-theme-stackoverflow-ibic": "github:negadive/jsonresume-theme-stackoverflow-ibic",
+    "resume-cli": "^3.7.1"
+  }
+}
