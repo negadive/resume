@@ -33,6 +33,8 @@ jobs:
           publish_dir: ./public
       - name: Allow unprivileged user namespaces (Chromium sandbox)
         run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+      - name: Inject phone number
+        run: sed -i "s/PHONE_PLACEHOLDER/${{ secrets.PHONE_NUMBER }}/" resume.json
       - name: Build the resume - pdf
         run: |
           npx resume export --theme stackoverflow-ibic --format pdf exports/Teguh_Prabowo_Wijangkoro.pdf
