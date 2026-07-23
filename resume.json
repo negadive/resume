@@ -5,6 +5,7 @@
     "label": "Programmer",
     "image": "https://raw.githubusercontent.com/negadive/resume/main/resources/image.png",
     "email": "teguh.pw20@gmail.com",
+    "phone": "PHONE_PLACEHOLDER",
     "summary": "Backend Developer with 5+ years of experience building and scaling RESTful APIs and microservices. Currently working with Ruby on Rails, React, TypeScript, Docker, and Datadog at Vidio. Skilled in SQL, Python, and Object-Oriented Programming.",
     "location": {
       "city": "Batam",

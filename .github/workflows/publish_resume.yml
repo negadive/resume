@@ -23,6 +23,8 @@ jobs:
           npm install resume-cli
           npm install https://github.com/negadive/jsonresume-theme-stackoverflow-ibic.git
           mkdir public
+      - name: Inject phone number
+        run: sed -i "s/PHONE_PLACEHOLDER/${{ secrets.PHONE_NUMBER }}/" resume.json
       - name: Build the resume - html
         run: |
           npx resume export --theme stackoverflow-ibic --format html public/index.html
